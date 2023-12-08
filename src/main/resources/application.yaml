@@ -1,0 +1,9 @@
+# AMQ
+spring:
+  artemis:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+amq:
+  queue:
+    sample-queue-name: EFAST.SAMPLEQUEUE
